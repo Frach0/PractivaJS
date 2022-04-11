@@ -3,3 +3,10 @@
 //Muestra por consola un mensaje diciendo 'Intentando dormir' en cada vuelta del bucle y 
 //cambia el mensaje en la última vuelta a 'Dormido!'.
 
+for (let index = 0; index <= 10; index++) {
+    if (index == 10) {
+        console.log('Dormido!');
+    }else{
+        console.log('Intentando dormir');
+    }   
+}
