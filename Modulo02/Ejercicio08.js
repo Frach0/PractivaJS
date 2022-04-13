@@ -40,7 +40,6 @@ const users = [
 ]
 
 var can = [];
-var int1 = [];
 
 for (const user of users) {
     for (const sounds in user.favoritesSounds) {
