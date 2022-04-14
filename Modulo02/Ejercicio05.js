@@ -10,3 +10,5 @@ for (let i = 0; i < placesToTravel.length; i++) {
         placesToTravel.splice(i, 1);
     }
 }
+
+console.log(placesToTravel);
