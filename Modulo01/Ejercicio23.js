@@ -9,9 +9,9 @@ var mayores = "";
 
 for (let i = 0; i < users.length; i++) {
     if (users[i].years < 18) {
-        menores += users[i].name + " ";
+        menores += users[i].name + ", ";
     }else{
-        mayores += users[i].name + " ";
+        mayores += users[i].name + ", ";
     }
 }
 

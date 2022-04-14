@@ -2,7 +2,7 @@
 
 const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
 
-rickAndMortyCharacters = ('Morty', 'Summer');
+rickAndMortyCharacters.push('Morty', 'Summer');
 
 var ult = rickAndMortyCharacters.length - 1;
 

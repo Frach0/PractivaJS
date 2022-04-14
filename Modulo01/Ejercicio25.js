@@ -12,14 +12,12 @@ var gra = "";
 
 for (let i = 0; i < movies.length; i++) {
     if (movies[i].durationInMinutes < 100) {
-        peq += movies[i].name + " ";
+        peq += movies[i].name + ", ";
     }else if(movies[i].durationInMinutes >= 100 && movies[i].durationInMinutes < 200){
-        med += movies[i].name + " ";
+        med += movies[i].name + ", ";
     }else{
-        gra += movies[i].name + " ";
+        gra += movies[i].name + ", ";
     }
 }
 
-console.log(peq);
-console.log(med);
-console.log(gra);
+console.log(`Peliculas de:\nCorta duracion = ${peq}\nDuracion media = ${med}\nGran duracion = ${gra}`)
