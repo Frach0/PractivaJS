@@ -2,3 +2,10 @@
 Recuerda que no solo puedes insertar elementos con .appendChild.
 */
 
+const ultDiv = document.querySelectorAll('div')[1];
+
+let newP = document.createElement("p");
+
+newP.innerHTML = "Voy en el medio!";
+
+document.body.insertBefore(newP, ultDiv);
